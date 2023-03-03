@@ -70,11 +70,6 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: 400;
-}
-
 p {
   width: auto;
   overflow-wrap: break-word;
@@ -252,4 +247,43 @@ p {
 .bike .slider__lines span {
   height: 2px;
   background-color: grey;
+}
+
+.info {
+  margin-bottom: 150px;
+}
+.info__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.info__img {
+  margin-right: 60px;
+  -ms-flex-preferred-size: 570px;
+      flex-basis: 570px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.info__list {
+  -ms-flex-preferred-size: 490px;
+      flex-basis: 490px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.info__list-item .item-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
 }
